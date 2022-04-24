@@ -12,12 +12,16 @@ public class Student {
     private String rollNo;
     private String fullName;
     private int DBO;
+    private String address;
+    private String email;
     private float point;
 
-    public Student(String rollNo, String fullName, int DBO, float point) {
+    public Student(String rollNo, String fullName, int DBO, String address, String email, float point) {
         this.rollNo = rollNo;
         this.fullName = fullName;
         this.DBO = DBO;
+        this.address = address;
+        this.email = email;
         this.point = point;
     }
 
@@ -49,6 +53,22 @@ public class Student {
         this.DBO = DBO;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public float getPoint() {
         return point;
     }
@@ -63,14 +83,11 @@ public class Student {
                 "rollNo='" + rollNo + '\'' +
                 ", fullName='" + fullName + '\'' +
                 ", DBO=" + DBO +
+                ", address='" + address + '\'' +
+                ", email='" + email + '\'' +
                 ", point=" + point +
                 '}';
     }
-
-//    @Override
-//    public int compareTo(Student other) {
-//        return this.rollNo.compareTo(other.rollNo);
-//    }
 
     @Override
     public boolean equals(Object obj) {

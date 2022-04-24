@@ -6,6 +6,8 @@ package ListStudentsManagerDetail;
     Project Name: ArrayList
 */
 
+import Task03ContactList.Contact;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -83,8 +85,25 @@ public class ListStudent {
         });
     }
 
+    //10. Sắp xếp theo tên.
     public void studentNameArrangement() {
-        listStu.sort((listStu1, listStu2) -> listStu1.getFullName().compareTo(listStu2.getFullName()));
+        listStu.sort((listStu1,listStu2)->listStu1.getFullName().compareTo(listStu2.getFullName()));
     }
 
+    //11. Sửa sinh viên.
+    public void updateStudent(Student oldStudent, Student newStudent) {
+        for (Student student : listStu) {
+            if(student.getRollNo().indexOf(oldStudent.getRollNo()) >= 0) {
+                System.out.print(student);
+                student.setRollNo(newStudent.getRollNo());
+                student.setFullName(newStudent.getFullName());
+                student.setDBO(newStudent.getDBO());
+                student.setAddress(newStudent.getAddress());
+                student.setEmail(newStudent.getEmail());
+                student.setPoint(newStudent.getPoint());
+                System.out.print(" --> ");
+                System.out.println(student);
+            }
+        }
+    }
 }
