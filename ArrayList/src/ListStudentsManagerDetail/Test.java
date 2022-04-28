@@ -99,7 +99,7 @@ public class Test {
 
                     System.out.println("Nhap ma sinh vien moi: "); String rollNo5 = sc.nextLine();
                     System.out.println("Nhap ho va ten moi: "); String fullName5 = sc.nextLine();
-                    System.out.println("Nhap nam sinh moi: "); int DBO5 = sc.nextInt();
+                    System.out.println("Nhap nam sinh moi: "); int DBO5 = sc.nextInt();sc.nextLine();
                     System.out.println("Nhap dia chi moi: "); String address5 = sc.nextLine();
                     System.out.println("Nhap email moi: "); String email5 = sc.nextLine();
                     System.out.println("Nhap điem moi: "); float point5 = sc.nextFloat();

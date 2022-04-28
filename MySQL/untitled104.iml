@@ -7,19 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/Downloads/mysql-connector-java-8.0.18.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/Downloads/mysql-connector-java-8.0.18.jar!/" />
-          <root url="jar://$MODULE_DIR$/mysql-connector-java-8.0.18.jar!/" />
-          <root url="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.18-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>

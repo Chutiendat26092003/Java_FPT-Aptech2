@@ -6,7 +6,6 @@ package Task03ContactList;
     Project Name: ArrayList
 */
 
-import ListStudentsManagerDetail.Student;
 
 import java.util.ArrayList;
 

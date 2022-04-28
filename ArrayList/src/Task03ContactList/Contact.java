@@ -6,8 +6,6 @@ package Task03ContactList;
     Project Name: ArrayList
 */
 
-import ListStudentsManagerDetail.Student;
-
 import java.util.Objects;
 
 public class Contact {
@@ -46,6 +44,7 @@ public class Contact {
                 ", phone='" + phone + '\'' +
                 '}';
     }
+
 
     @Override
     public boolean equals(Object obj) {
