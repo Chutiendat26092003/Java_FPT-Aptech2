@@ -76,7 +76,7 @@ public class Order {
                 ", nameProductOrder='" + nameProductOrder + '\'' +
                 ", priceProductOrder=" + priceProductOrder +
                 ", qtyProductOrder=" + qtyProductOrder +
-                ", totalOrder=" + getTotalOrder() +
+                ", totalOrder=" + getTotalOrder() + "VND" +
                 '}';
     }
 

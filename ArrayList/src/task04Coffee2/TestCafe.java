@@ -168,9 +168,9 @@ public class TestCafe {
                         System.out.println("5.  In hoa don.");
                         System.out.println("-------------------");
                         System.out.println("Moi ban lua chon!!!");
-                        selectAdmin = sc.nextInt(); sc.nextLine();
+                        selectUser = sc.nextInt(); sc.nextLine();
 
-                        switch (selectAdmin) {
+                        switch (selectUser) {
                             case 1:
                                 cafeList.printMenuList();
                                 break;
@@ -207,7 +207,7 @@ public class TestCafe {
                                 cafeList.printOrderList();
                                 break;
                         }
-                    } while (selectAdmin != 0); {
+                    } while (selectUser != 0); {
                          System.out.println("Xin Cam On!!!");
                          System.out.println("-------------------");
                     }

@@ -184,7 +184,7 @@ public class Cafe {
         for (Order order: orderArrayList) {
             System.out.println(order);
         }
-        System.out.println("Tong hoa don:" + getTotal());
+        System.out.println("Tong hoa don:" + getTotal() + "VND");
     }
 
 }
