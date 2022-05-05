@@ -1,6 +1,6 @@
 create database if not exists ebookshop;
 
-user ebookshop;
+use ebookshop;
 
 drop table  if exists books;
 create table books (
