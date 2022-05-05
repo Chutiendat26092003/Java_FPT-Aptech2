@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/task05ConnectDatabase/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task05ConnectDatabase/Ex2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/out/production/ArrayList/task04Coffee2/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/out/production/ArrayList/task04Coffee2/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/out/production/ArrayList/task04Coffee2/TestCafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/out/production/ArrayList/task04Coffee2/TestCafe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/src/task04Coffee2/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/src/task04Coffee2/Cafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/src/task04Coffee2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/src/task04Coffee2/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/src/task04Coffee2/TestCafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/src/task04Coffee2/TestCafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task05ConnectDatabase/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task05ConnectDatabase/Ex2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +177,7 @@
       <workItem from="1651118243494" duration="2656000" />
       <workItem from="1651654006641" duration="3273000" />
       <workItem from="1651671627336" duration="161000" />
+      <workItem from="1651712633589" duration="3111000" />
     </task>
     <servers />
   </component>
