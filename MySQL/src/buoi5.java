@@ -11,21 +11,31 @@ public class buoi5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         try (
+                //Các hoạt động JDBC được thực hiện thông qua các đối tượng "Connection", "Statement", và "ResultSet"
+
+                //Đầu tiên cần tạo ra đối tượng Connection, sử dụng URL cơ sở dữ liệu để kết nối với máy chủ
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
+
+                //Phân bổ Statement đối tượng  trong Connection thông qua conn.createStatement()
                 Statement stmt = conn.createStatement();
         ) {
             // Issue a SELECT to check the changes
             String strSelect = "select * from books";
             System.out.println("The SQL statement is: " + strSelect + "\n");
-            ResultSet resultSet = stmt.executeQuery(strSelect);
-            while (resultSet.next()) {
-                System.out.println(resultSet.getInt("id") + ", "
+            //Để thực thi lệnh SQL SELECT, ta gọi phương thức stmt.executeQuery(strSelect) trả về kết quả truy vấn trong ResultSet đối tượng(được gọi resultSet)
+            ResultSet resultSet = stmt.executeQuery(strSelect); //Mô hình bảng được trả về, có thể truy cập thông qua 1 con trỏ hàng
+            //Con trỏ ban đầu được định vị trước hàng đầu tiên trong ResultSet
+            while (resultSet.next()) { // di chuyển con trỏ đến hàng đầu tiên
+                //Các cột trong mỗi hàng phải được đọc từ trái sang phải và mỗi cột chỉ được đọc 1 lần thông qua các phương thức getXXX()
+                System.out.println(resultSet.getInt("id") + ", " // 1 ô nếu getXXX() có thể gây ra lỗi lạ
                         + resultSet.getString("author") + ", "
                         + resultSet.getString("title") + ", "
                         + resultSet.getDouble("price") + ", "
                         + resultSet.getInt("qty")
                 );
             }
+
+
 
             // SEARCH
             System.out.println("\n\nEnter the book  id you want to SEARCH: "); Integer enterID = sc.nextInt();
@@ -42,12 +52,16 @@ public class buoi5 {
                 );
             }
 
+
+
             // DELETE 1 book with user-entered id
             System.out.println("\n\nEnter the book  id you want to DELETE: "); Integer deleteID = sc.nextInt();
             String sqlDelete = "delete from books where id = " + deleteID;
             System.out.println("The SQL statement is: " + sqlDelete + "\n");
             int countDeleted = stmt.executeUpdate(sqlDelete);
             System.out.println(countDeleted + " records deleted.\n");
+
+
 
             // INSERT user-entered book
             System.out.println("Insert a record");
