@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../giftshop/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/giftshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/src/database/giftshop.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/src/giftcontroller/GiftController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/src/giftmodel/Gift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../giftshop/src/giftview/GiftShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Task06eBookStore/TestBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Task06eBookStore/TestOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/buoi5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/task05ConnectDatabase/Ex1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/task05ConnectDatabase/Ex2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/task05ConnectDatabase/JdbcSelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/task07InsertAndDelete/Ex1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/task07InsertAndDelete/JdbcInsertTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buoi5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buoi5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/giftshop.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +200,7 @@
       <workItem from="1651908692716" duration="1474000" />
       <workItem from="1651996840202" duration="2325000" />
       <workItem from="1652195606935" duration="2769000" />
-      <workItem from="1652317366127" duration="351000" />
+      <workItem from="1652317366127" duration="1639000" />
     </task>
     <servers />
   </component>
