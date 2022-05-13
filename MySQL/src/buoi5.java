@@ -30,7 +30,7 @@ public class buoi5 {
             //Con trỏ ban đầu được định vị trước hàng đầu tiên trong ResultSet
             while (resultSet.next()) { // di chuyển con trỏ đến hàng đầu tiên
                 /*Các cột trong mỗi hàng phải được đọc từ trái sang phải
-                và mỗi cột chỉ được đọc 1 lần thông qua các phương thức getXXX() */
+                và mỗi cột chỉ được đọc 1 lần thông qua các phương thức getXxx() */
                 System.out.println(resultSet.getInt("id") + ", "
                         + resultSet.getString("author") + ", "
                         + resultSet.getString("title") + ", "
@@ -79,7 +79,7 @@ public class buoi5 {
             String sqlInsert = "insert into books values (" + insertID + ", '"
                     + insertTitle + "', '"
                     + insertAuthor + "', "
-                    + insertPrice + ", " 
+                    + insertPrice + ", "
                     + insertQty + ")";
             System.out.println("The SQL statement is: " + sqlInsert + "\n");
             int countInserted = stmt.executeUpdate(sqlInsert);
@@ -103,3 +103,4 @@ public class buoi5 {
         }
     }
 }
+

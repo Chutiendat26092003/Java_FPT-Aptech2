@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcBatchProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcCommit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcCommitCatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCapEBookShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcPreparedStatementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/giftshop/buoi5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/buoi5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buoi5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buoi5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,13 +110,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.buoi5">
-    <configuration name="Ex1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task07InsertAndDelete.Ex1" />
+  <component name="RunManager" selected="Application.JdbcBatchProcessing">
+    <configuration name="JdbcBatchProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcBatchProcessing" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task07InsertAndDelete.*" />
+          <option name="PATTERN" value="task9JDBCnangCao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcInsertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task07InsertAndDelete.JdbcInsertTest" />
+    <configuration name="JdbcCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcCommit" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task07InsertAndDelete.*" />
+          <option name="PATTERN" value="task9JDBCnangCao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task06eBookStore.TestBook" />
+    <configuration name="JdbcCommitCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcCommitCatchTest" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task06eBookStore.*" />
+          <option name="PATTERN" value="task9JDBCnangCao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task06eBookStore.TestOrder" />
+    <configuration name="JdbcNangCapEBookShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcNangCapEBookShop" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task06eBookStore.*" />
+          <option name="PATTERN" value="task9JDBCnangCao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,27 +163,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="buoi5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buoi5" />
+    <configuration name="JdbcPreparedStatementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcPreparedStatementTest" />
       <module name="giftshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task9JDBCnangCao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestBook" />
-      <item itemvalue="Application.TestOrder" />
-      <item itemvalue="Application.JdbcInsertTest" />
-      <item itemvalue="Application.Ex1 (1)" />
-      <item itemvalue="Application.buoi5" />
+      <item itemvalue="Application.JdbcCommit" />
+      <item itemvalue="Application.JdbcCommitCatchTest" />
+      <item itemvalue="Application.JdbcNangCapEBookShop" />
+      <item itemvalue="Application.JdbcPreparedStatementTest" />
+      <item itemvalue="Application.JdbcBatchProcessing" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.buoi5" />
-        <item itemvalue="Application.Ex1 (1)" />
-        <item itemvalue="Application.JdbcInsertTest" />
-        <item itemvalue="Application.TestOrder" />
-        <item itemvalue="Application.TestBook" />
+        <item itemvalue="Application.JdbcBatchProcessing" />
+        <item itemvalue="Application.JdbcPreparedStatementTest" />
+        <item itemvalue="Application.JdbcNangCapEBookShop" />
+        <item itemvalue="Application.JdbcCommitCatchTest" />
+        <item itemvalue="Application.JdbcCommit" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +212,8 @@
       <workItem from="1651908692716" duration="1474000" />
       <workItem from="1651996840202" duration="2325000" />
       <workItem from="1652195606935" duration="2769000" />
-      <workItem from="1652317366127" duration="1639000" />
+      <workItem from="1652317366127" duration="10220000" />
+      <workItem from="1652426916016" duration="5244000" />
     </task>
     <servers />
   </component>
