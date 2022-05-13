@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcBatchProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcCommit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcCommitCatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCapEBookShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcPreparedStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCaEBookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList/src/phonebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/src/phonebook/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/giftshop/buoi5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/buoi5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/buoi5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buoi5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCapEBookShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCapEBookShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCapEBookShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCapEBookShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArrayList" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -110,7 +107,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.JdbcBatchProcessing">
+  <component name="RunManager" selected="Application.JdbcNangCaEBookStore">
     <configuration name="JdbcBatchProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcBatchProcessing" />
       <module name="giftshop" />
@@ -124,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcCommit" />
+    <configuration name="JdbcCommitCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcCommitCatchTest" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcCommitCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcCommitCatchTest" />
+    <configuration name="JdbcNangCaEBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcNangCaEBookStore" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
@@ -177,19 +174,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JdbcCommit" />
       <item itemvalue="Application.JdbcCommitCatchTest" />
       <item itemvalue="Application.JdbcNangCapEBookShop" />
       <item itemvalue="Application.JdbcPreparedStatementTest" />
       <item itemvalue="Application.JdbcBatchProcessing" />
+      <item itemvalue="Application.JdbcNangCaEBookStore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdbcNangCaEBookStore" />
+        <item itemvalue="Application.JdbcNangCapEBookShop" />
         <item itemvalue="Application.JdbcBatchProcessing" />
         <item itemvalue="Application.JdbcPreparedStatementTest" />
-        <item itemvalue="Application.JdbcNangCapEBookShop" />
         <item itemvalue="Application.JdbcCommitCatchTest" />
-        <item itemvalue="Application.JdbcCommit" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +210,8 @@
       <workItem from="1651996840202" duration="2325000" />
       <workItem from="1652195606935" duration="2769000" />
       <workItem from="1652317366127" duration="10220000" />
-      <workItem from="1652426916016" duration="5244000" />
+      <workItem from="1652426916016" duration="5646000" />
+      <workItem from="1652452069950" duration="2291000" />
     </task>
     <servers />
   </component>

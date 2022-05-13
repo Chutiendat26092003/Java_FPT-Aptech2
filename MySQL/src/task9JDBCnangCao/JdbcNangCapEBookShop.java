@@ -16,7 +16,6 @@ public class JdbcNangCapEBookShop {
         ) {
             ResultSet rset = stmt.executeQuery("select  * from books");
             ResultSetMetaData rsetMD = rset.getMetaData();
-
             int numColumns = rsetMD.getColumnCount();
 
             for (int i = 1; i <= numColumns; ++i) {

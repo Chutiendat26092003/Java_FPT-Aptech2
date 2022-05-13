@@ -76,7 +76,7 @@ public class Main {
         System.out.println("Choose your action: ");
     }
 
-        private static void addNewContact() {
+    private static void addNewContact() {
         System.out.println("Enter new contact name: ");
         String name = scanner.nextLine();
         System.out.println("Enter phone number: ");
