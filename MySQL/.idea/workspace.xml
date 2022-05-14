@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/Music.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Music/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/musicStore/TestMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/musicStore/musics.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCaEBookStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCaEBookStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCapEBookShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCapEBookShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/giftshop/musicStore/TestMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/musicStore/TestMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/musicStore/TestMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/musicStore/TestMusic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +216,7 @@
       <workItem from="1652317366127" duration="10220000" />
       <workItem from="1652426916016" duration="5646000" />
       <workItem from="1652452069950" duration="2291000" />
-      <workItem from="1652509993346" duration="4727000" />
+      <workItem from="1652509993346" duration="6270000" />
     </task>
     <servers />
   </component>
