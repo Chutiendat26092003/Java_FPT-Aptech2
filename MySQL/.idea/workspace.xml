@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCaEBookStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/src/phonebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/src/phonebook/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/Music.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musicStore/TestMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musicStore/musics.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCaEBookStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCaEBookStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCapEBookShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/task9JDBCnangCao/JdbcNangCapEBookShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCapEBookShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcNangCapEBookShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +102,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -107,22 +117,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.JdbcNangCaEBookStore">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java_FPT-Aptech2\MySQL\src\musicStore" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestMusic">
     <configuration name="JdbcBatchProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcBatchProcessing" />
-      <module name="giftshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task9JDBCnangCao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcCommitCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task9JDBCnangCao.JdbcCommitCatchTest" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
@@ -173,20 +175,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="musicStore.TestMusic" />
+      <module name="giftshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="musicStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JdbcCommitCatchTest" />
       <item itemvalue="Application.JdbcNangCapEBookShop" />
       <item itemvalue="Application.JdbcPreparedStatementTest" />
       <item itemvalue="Application.JdbcBatchProcessing" />
       <item itemvalue="Application.JdbcNangCaEBookStore" />
+      <item itemvalue="Application.TestMusic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMusic" />
         <item itemvalue="Application.JdbcNangCaEBookStore" />
         <item itemvalue="Application.JdbcNangCapEBookShop" />
         <item itemvalue="Application.JdbcBatchProcessing" />
         <item itemvalue="Application.JdbcPreparedStatementTest" />
-        <item itemvalue="Application.JdbcCommitCatchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +227,7 @@
       <workItem from="1652317366127" duration="10220000" />
       <workItem from="1652426916016" duration="5646000" />
       <workItem from="1652452069950" duration="2291000" />
+      <workItem from="1652509993346" duration="4727000" />
     </task>
     <servers />
   </component>
@@ -228,5 +244,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
