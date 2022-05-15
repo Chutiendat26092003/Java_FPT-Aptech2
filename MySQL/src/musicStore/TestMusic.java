@@ -17,11 +17,13 @@ public class TestMusic {
                 Statement stmt = conn.createStatement();
         ) {
             // select
-            String sqlSelect = "Select * from musics";
-            System.out.println("The SQL Statement is: " + sqlSelect + "\n");
-            ResultSet rset = stmt.executeQuery(sqlSelect);
-            ResultSetMetaData rsetMD = rset.getMetaData();
-            displayTable(rset, rsetMD);
+//            String sqlSelect = "Select * from musics";
+//            System.out.println("The SQL Statement is: " + sqlSelect + "\n");
+//            ResultSet rset = stmt.executeQuery(sqlSelect);
+//            ResultSetMetaData rsetMD = rset.getMetaData();
+//            displayTable(rset, rsetMD);
+
+            select(stmt);
 
             // insert
             System.out.println("\n\nInsert a record");
@@ -34,57 +36,57 @@ public class TestMusic {
             int countInserted = stmt.executeUpdate(sqlInsert);
             System.out.println(countInserted + " records inserted.");
 
-            // update
-            System.out.println("\n\nUpdate a record");
-            System.out.println("Enter ID: "); Integer updateID = sc.nextInt(); sc.nextLine();
-            System.out.println("Enter name new: "); String insertNewName = sc.nextLine();
-            System.out.println("Enter author new: "); String insertNewAuthor = sc.nextLine();
-            System.out.println("Enter year new: "); String insertNewYear = sc.nextLine();
-            String sqlUpdate = "update musics set name ='" + insertNewName + "', author ='" + insertNewAuthor + "', year ='" + insertNewYear + "' where  id = " + updateID;
-            System.out.println("The SQL statement is: " + sqlUpdate + "\n");
-            int countUpdate = stmt.executeUpdate(sqlUpdate);
-            System.out.println(countUpdate + " records inserted.");
-
-
-            // delete
-            System.out.println("\n\nDelete a record");
-            System.out.println("Enter ID: "); Integer enterDeleteId = sc.nextInt();
-            String sqlDelete = "delete from musics where id = " + enterDeleteId;
-            System.out.println("The SQL statement is: " + sqlDelete + "\n");
-            int countDeleted = stmt.executeUpdate(sqlDelete);
-            System.out.println(countDeleted + " records deleted.");
-
-            // search id
-            System.out.println("\n\nSearch a record");
-            System.out.println("Enter ID: "); Integer enterSearchId = sc.nextInt(); sc.nextLine();
-            String strSearch  = "select * from musics  where id = " + enterSearchId;
-            System.out.println("The SQL Statement is: " + strSearch + "\n");
-            ResultSet rsetS = stmt.executeQuery(strSearch);
-            ResultSetMetaData rsetMDS = rsetS.getMetaData();
-            displayTable(rsetS, rsetMDS);
-
-            // search id
-            System.out.println("\n\nSearch a record");
-            System.out.println("Enter name: "); String enterSearchName = sc.nextLine();
-            String strSearch2  = "select * from musics  where name like '%" + enterSearchName + "%'";
-            System.out.println("The SQL Statement is: " + strSearch2 + "\n");
-            ResultSet rsetS2 = stmt.executeQuery(strSearch2);
-            ResultSetMetaData rsetMDS2 = rsetS2.getMetaData();
-            displayTable(rsetS2, rsetMDS2);
-
+//            // update
+//            System.out.println("\n\nUpdate a record");
+//            System.out.println("Enter ID: "); Integer updateID = sc.nextInt(); sc.nextLine();
+//            System.out.println("Enter name new: "); String insertNewName = sc.nextLine();
+//            System.out.println("Enter author new: "); String insertNewAuthor = sc.nextLine();
+//            System.out.println("Enter year new: "); String insertNewYear = sc.nextLine();
+//            String sqlUpdate = "update musics set name ='" + insertNewName + "', author ='" + insertNewAuthor + "', year ='" + insertNewYear + "' where  id = " + updateID;
+//            System.out.println("The SQL statement is: " + sqlUpdate + "\n");
+//            int countUpdate = stmt.executeUpdate(sqlUpdate);
+//            System.out.println(countUpdate + " records inserted.");
+//
+//
+//            // delete
+//            System.out.println("\n\nDelete a record");
+//            System.out.println("Enter ID: "); Integer enterDeleteId = sc.nextInt();
+//            String sqlDelete = "delete from musics where id = " + enterDeleteId;
+//            System.out.println("The SQL statement is: " + sqlDelete + "\n");
+//            int countDeleted = stmt.executeUpdate(sqlDelete);
+//            System.out.println(countDeleted + " records deleted.");
+//
+//            // search id
+//            System.out.println("\n\nSearch a record");
+//            System.out.println("Enter ID: "); Integer enterSearchId = sc.nextInt(); sc.nextLine();
+//            String strSearch  = "select * from musics  where id = " + enterSearchId;
+//            System.out.println("The SQL Statement is: " + strSearch + "\n");
+//            ResultSet rsetS = stmt.executeQuery(strSearch);
+//            ResultSetMetaData rsetMDS = rsetS.getMetaData();
+//            displayTable(rsetS, rsetMDS);
+//
+//            // search id
+//            System.out.println("\n\nSearch a record");
+//            System.out.println("Enter name: "); String enterSearchName = sc.nextLine();
+//            String strSearch2  = "select * from musics  where name like '%" + enterSearchName + "%'";
+//            System.out.println("The SQL Statement is: " + strSearch2 + "\n");
+//            ResultSet rsetS2 = stmt.executeQuery(strSearch2);
+//            ResultSetMetaData rsetMDS2 = rsetS2.getMetaData();
+//            displayTable(rsetS2, rsetMDS2);
+//
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
 
-//    public static void select() throws SQLException {
-//        String sqlSelect = "Select * from musics";
-//        System.out.println("The SQL Statement is: " + sqlSelect + "\n");
-//        ResultSet rset = stmt.executeQuery(sqlSelect);
-//        ResultSetMetaData rsetMD = rset.getMetaData();
-//        displayTable(rset, rsetMD);
-//    }
+    public static void select(Statement stmt) throws SQLException {
+        String sqlSelect = "Select * from musics";
+        System.out.println("The SQL Statement is: " + sqlSelect + "\n");
+        ResultSet rset = stmt.executeQuery(sqlSelect);
+        ResultSetMetaData rsetMD = rset.getMetaData();
+        displayTable(rset, rsetMD);
+    }
 
     public static void displayTable(ResultSet rset, ResultSetMetaData rsetMD) throws SQLException {
         int numColumns = rsetMD.getColumnCount();
