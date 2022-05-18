@@ -67,6 +67,7 @@ public class Buoi6 {
                 System.out.printf(code + ", ");
             }
             System.out.println();
+            System.out.println();
 
             conn.commit();
 
