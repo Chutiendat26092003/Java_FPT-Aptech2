@@ -6,7 +6,6 @@ package ss7;
     Project Name: MySQL
 */
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -47,15 +46,17 @@ public class StackWalkingDemo {
             System.out.println(stacksAfterShip);
         }
         private List<String> walkAllStackFrames() {
-            return StackWalker.getInstance().wait(s -> s.map(frame -> "\n" +
-                    frame.getClassName() + "/" + frame.getMethodName()).
-                    collect(Collectors.toList()));
+//            return StackWalker.getInstance().wait(s -> s.map(frame -> "\n" +
+//                    frame.getClassName() + "/" + frame.getMethodName()).
+//                    collect(Collectors.toList()));
+            return null;
         }
 
         private List<String> walkSomeStackFrames(int numberOfFrames) {
-            return StackWalker.getInstance().wait(s -> s.map(frame -> "\n" +
-                            frame.getClassName() + "/" + frame.getMethodName()).
-                    .skip(numberOfFrames).collect(Collectors.toList()));
+//            return StackWalker.getInstance().wait(s -> s.map(frame -> "\n" +
+//                            frame.getClassName() + "/" + frame.getMethodName()).
+//                    .skip(numberOfFrames).collect(Collectors.toList()));
+            return null;
         }
 
     }

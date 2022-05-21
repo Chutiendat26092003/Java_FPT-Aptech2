@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss7/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/AtomicVariableApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/Chopstick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/DeadlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/ForkJoinApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/MultipleThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/StackWalkingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/ThreadDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/ThreadDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task9JDBCnangCao/JdbcCommitCatchTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayList/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/ThiTH.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/src/database/student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/src/managementStudent/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/src/managementStudent/StudentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTH/src/managementStudent/testStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/giftshop/Buoi6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/Buoi6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/giftshop/musicStore/TestMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/giftshop/musicStore/TestMusic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Buoi6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buoi6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/StackWalkingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/StackWalkingDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/database/books.sql" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,7 +122,7 @@
       <recent name="D:\Java_FPT-Aptech2\MySQL\src\musicStore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinApplication">
+  <component name="RunManager" selected="Application.MultipleThreads">
     <configuration name="AtomicVariableApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7.AtomicVariableApplication" />
       <module name="giftshop" />
@@ -152,19 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.DepositAmount" />
-      <module name="giftshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ForkJoinApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7.ForkJoinApplication" />
       <module name="giftshop" />
@@ -178,8 +162,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.SynchMethod" />
+    <configuration name="MultipleThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.MultipleThreads" />
+      <module name="giftshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackWalkingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.StackWalkingDemo" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
@@ -192,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DepositAmount" />
-      <item itemvalue="Application.SynchMethod" />
       <item itemvalue="Application.DeadlockDemo" />
       <item itemvalue="Application.AtomicVariableApplication" />
       <item itemvalue="Application.ForkJoinApplication" />
+      <item itemvalue="Application.StackWalkingDemo" />
+      <item itemvalue="Application.MultipleThreads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleThreads" />
+        <item itemvalue="Application.StackWalkingDemo" />
         <item itemvalue="Application.ForkJoinApplication" />
         <item itemvalue="Application.AtomicVariableApplication" />
         <item itemvalue="Application.DeadlockDemo" />
-        <item itemvalue="Application.SynchMethod" />
-        <item itemvalue="Application.DepositAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +232,9 @@
       <workItem from="1652612590562" duration="5662000" />
       <workItem from="1652712775152" duration="1504000" />
       <workItem from="1652750024605" duration="4334000" />
-      <workItem from="1652862945367" duration="8164000" />
+      <workItem from="1652862945367" duration="8316000" />
+      <workItem from="1652931123348" duration="1706000" />
+      <workItem from="1653095103187" duration="2403000" />
     </task>
     <servers />
   </component>
