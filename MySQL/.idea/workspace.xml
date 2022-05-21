@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/ThiTH.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/src/database/student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/src/managementStudent/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/src/managementStudent/StudentList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThiTH/src/managementStudent/testStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java2OnTap/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java2OnTap/musics.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/StackWalkingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/StackWalkingDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +227,7 @@
       <workItem from="1652862945367" duration="8316000" />
       <workItem from="1652931123348" duration="1706000" />
       <workItem from="1653095103187" duration="2403000" />
+      <workItem from="1653148616939" duration="302000" />
     </task>
     <servers />
   </component>
