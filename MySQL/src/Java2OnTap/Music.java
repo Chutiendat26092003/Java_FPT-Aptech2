@@ -6,28 +6,30 @@ package Java2OnTap;
     Project Name: MySQL
 */
 
+import java.util.Objects;
+
 public class Music {
-    private int id;
+    private String id;
     private String name;
     private String author;
     private String year;
 
-    public Music(int id, String name, String author, String year) {
+    public Music(String id, String name, String author, String year) {
         this.id = id;
         this.name = name;
         this.author = author;
         this.year = year;
     }
 
-    public Music(int id) {
+    public Music(String id) {
         this.id = id;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -63,5 +65,14 @@ public class Music {
                 ", author='" + author + '\'' +
                 ", year='" + year + '\'' +
                 '}';
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        Music other = (Music) obj;
+        return Objects.equals(id, other.id);
     }
 }

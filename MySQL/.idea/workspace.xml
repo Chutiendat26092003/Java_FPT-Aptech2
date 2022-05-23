@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f727a95-a608-4ee3-83b8-b4efd28c3671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java2OnTap/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java2OnTap/musics.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java2OnTap/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java2OnTap/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java2OnTap/MusicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java2OnTap/MusicList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java2OnTap/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java2OnTap/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArrayList" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,22 +115,9 @@
       <recent name="D:\Java_FPT-Aptech2\MySQL\src\musicStore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleThreads">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="AtomicVariableApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7.AtomicVariableApplication" />
-      <module name="giftshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.DeadlockDemo" />
       <module name="giftshop" />
       <extension name="coverage">
         <pattern>
@@ -180,20 +168,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java2OnTap.Test" />
+      <module name="giftshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java2OnTap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DeadlockDemo" />
       <item itemvalue="Application.AtomicVariableApplication" />
       <item itemvalue="Application.ForkJoinApplication" />
       <item itemvalue="Application.StackWalkingDemo" />
       <item itemvalue="Application.MultipleThreads" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MultipleThreads" />
         <item itemvalue="Application.StackWalkingDemo" />
         <item itemvalue="Application.ForkJoinApplication" />
         <item itemvalue="Application.AtomicVariableApplication" />
-        <item itemvalue="Application.DeadlockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,9 @@
       <workItem from="1652862945367" duration="8316000" />
       <workItem from="1652931123348" duration="1706000" />
       <workItem from="1653095103187" duration="2403000" />
-      <workItem from="1653148616939" duration="302000" />
+      <workItem from="1653148616939" duration="887000" />
+      <workItem from="1653203701603" duration="4756000" />
+      <workItem from="1653296982618" duration="1753000" />
     </task>
     <servers />
   </component>
